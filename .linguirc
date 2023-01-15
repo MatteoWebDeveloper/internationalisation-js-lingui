@@ -1,0 +1,13 @@
+{
+   "locales": ["en", "it"],
+   "sourceLocale": "en",
+   "catalogs": [{
+      "path": "src/locales/{locale}/messages",
+      "include": ["src"]
+   }],
+   "compileNamespace": "es",
+   "format": "po",
+   "extractBabelOptions": {
+    "plugins": ["@babel/plugin-syntax-jsx"]
+  }
+}
